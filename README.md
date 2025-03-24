@@ -19,7 +19,7 @@ services:
       - "67:67/udp" # Only required if you are using Pi-hole as your DHCP server
       - "80:80/tcp"
     environment:
-      TZ: 'America/New_York' # update according to your timezone
+      TZ: 'America/Los_Angeles' # update according to your timezone
       WEBPASSWORD: 'choose secured password' #update password
     volumes:
       - '/home/username/pihole/etc-pihole:/etc/pihole' #update
